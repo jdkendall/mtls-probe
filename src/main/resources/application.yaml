@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: mTLS Probe
+
+client:
+  config:
+    targets:
+      FOO:
+        url: https://httpbin.org/get
+        expectedStatus: 200
+        expectedContent: "https://httpbin.org/get"

@@ -1,12 +1,12 @@
 HELP.md
 target/
 
-src/test/resources/alien-client
-src/test/resources/broken-server
-src/test/resources/client
-src/test/resources/expired-server
-src/test/resources/self-signed-server
-src/test/resources/server
+src/test/resources/certs/alien-client
+src/test/resources/certs/broken-server
+src/test/resources/certs/client
+src/test/resources/certs/expired-server
+src/test/resources/certs/self-signed-server
+src/test/resources/certs/server
 
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/

@@ -1,0 +1,7 @@
+FROM httpd:latest
+
+COPY httpd/httpd.conf /usr/local/apache2/conf/httpd.conf
+COPY httpd/test.html /usr/local/apache2/htdocs/test.html
+COPY certs/expired-server/fullchain.crt /usr/local/apache2/conf/certs/server/fullchain.crt
+COPY certs/expired-server/server.key /usr/local/apache2/conf/certs/server/server.key
+COPY certs/client/chain.crt /usr/local/apache2/conf/certs/client/chain.crt
